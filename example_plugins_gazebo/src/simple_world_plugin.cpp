@@ -1,19 +1,13 @@
 #include <boost/bind.hpp>
 #include <gazebo/gazebo.hh>
-// #include <physics/physics.hh>
-// #include <common/common.hh>
-
 #include <ignition/math/Vector3.hh>
-
 #include <gazebo/physics/physics.hh>
 #include <gazebo/common/common.hh>
 #include <gazebo/physics/World.hh>
 #include <gazebo/physics/Model.hh>
 #include <sdf/sdf.hh>
-
 #include <gazebo/common/Plugin.hh>
 #include <ros/ros.h>
-
 #include <stdio.h>
 
 namespace gazebo
@@ -29,13 +23,15 @@ namespace gazebo
       // simulation iteration.
       this->updateConnection = event::Events::ConnectWorldUpdateBegin(
           boost::bind(&HelloWorld::OnUpdate, this));
+
+      this->model->SetLinearVel(ignition::math::Vector3<double>(4.0, 0.0, 4.0));
     }
 
     // Called by the world update start event
     public: void OnUpdate()
     {
       // Apply a small linear velocity to the model.
-      this->model->SetLinearVel(ignition::math::Vector3<double>(0.03, 0, 0));
+      // this->model->SetLinearVel(ignition::math::Vector3<double>(1.0, 0, 0));
     }
 
     // Pointer to the model
