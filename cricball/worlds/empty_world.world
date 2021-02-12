@@ -8,8 +8,9 @@
 			<uri>model://ground_plane</uri>
 		</include>
 		<include>
-			<uri>model://cricketball1</uri>
-			<pose>2 1 1 0 0 0</pose>
+			<uri>model://cricketball</uri>
+			<pose>3.5 -0.85 1 0 0 0</pose>
+			<plugin name="libhappy_world_plugin1" filename="libhappy_world_plugin1.so"/>
 		</include>		
 	</world>
 </sdf>
