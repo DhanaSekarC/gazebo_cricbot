@@ -8,9 +8,31 @@
 			<uri>model://ground_plane</uri>
 		</include>
 		<include>
-			<uri>model://cricketball</uri>
-			<pose>0 0 1 0 0 0</pose>
-			<plugin name="libhappy_world_plugin" filename="libhappy_world_plugin.so"/>
+			<uri>model://camera1</uri>
+			<pose>0 0 1 0 0 0</pose>	
+			<plugin name="libcamera_plugin1" filename="libcamera_plugin1.so"/>	
+			
+<!-- 			<plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+				<alwaysOn>true</alwaysOn>
+				<updateRate>0.0</updateRate>
+				<cameraName>camera</cameraName>
+				<imageTopicName>image_raw</imageTopicName>
+				<cameraInfoTopicName>camera_info</cameraInfoTopicName>
+				<frameName>camera_link_optical</frameName>
+				setting hackBaseline to anything but 0.0 will cause a misalignment
+				       between the gazebo sensor image and the frame it is supposed to
+				       be attached to
+				<hackBaseline>0.0</hackBaseline>
+				<distortionK1>0.0</distortionK1>
+				<distortionK2>0.0</distortionK2>
+				<distortionK3>0.0</distortionK3>
+				<distortionT1>0.0</distortionT1>
+				<distortionT2>0.0</distortionT2>
+				<CxPrime>0</CxPrime>
+				<Cx>0.0</Cx>
+				<Cy>0.0</Cy>
+				<focalLength>0.0</focalLength>
+			</plugin> -->
 		</include>		
 	</world>
 </sdf>

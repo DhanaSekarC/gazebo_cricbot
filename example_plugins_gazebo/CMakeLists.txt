@@ -21,6 +21,9 @@ include_directories(${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE
 add_library(happy_world_plugin src/simple_world_plugin.cpp)
 target_link_libraries(happy_world_plugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
 
+add_library(camera_plugin1 src/cameraPublisher.cpp)
+target_link_libraries(camera_plugin1 ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
+
 # For model_push_plugin plugin
 #add_library(model_push_plugin src/model_push.cc)
 #target_link_libraries(model_push_plugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
