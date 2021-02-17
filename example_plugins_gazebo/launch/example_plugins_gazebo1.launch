@@ -2,11 +2,12 @@
 
 <launch>	
   <include file="$(find gazebo_ros)/launch/empty_world.launch">    
+  	<arg name="verbose" value="true"/>
     <arg name="paused" value="true"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
     <arg name="headless" value="false"/>
-    <arg name="debug" value="false"/>
+    <arg name="debug" value="true"/>
     <arg name="world_name" value="$(find example_plugins_gazebo)/worlds/simple_world.world"/>
   </include>
 </launch>

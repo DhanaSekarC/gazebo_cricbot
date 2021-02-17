@@ -1,0 +1,300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"ans",
+				"ans_list"
+			],
+			[
+				"depth",
+				"depth1"
+			],
+			[
+				"con",
+				"construct_tree"
+			],
+			[
+				"sr",
+				"start"
+			],
+			[
+				"ga",
+				"gazebo_model_path"
+			],
+			[
+				"pr",
+				"print_ans"
+			],
+			[
+				"mon",
+				"mon_attack"
+			],
+			[
+				"y",
+				"yval"
+			],
+			[
+				"x",
+				"xval"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"h",
+				"horizontal"
+			],
+			[
+				"max",
+				"max_count"
+			],
+			[
+				"thr",
+				"thrust_velocity"
+			],
+			[
+				"thru",
+				"pub_thrust_velocity"
+			],
+			[
+				"loca",
+				"location_msg"
+			],
+			[
+				"turtle",
+				"turtle_mover"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/models/cricketball/model.config",
+		"/home/raju/mybot_ws/src/camera_example/src/cameraPublisher.cpp",
+		"/home/raju/mybot_ws/src/camera_example/models/camera1/model.sdf",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/CMakeLists.txt",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/worlds/simple_world.world",
+		"/home/raju/mybot_ws/src/camera_example/worlds/simple_world.world",
+		"/home/raju/mybot_ws/src/camera_example/CMakeLists.txt",
+		"/home/raju/mybot_ws/src/cricball/CMakeLists.txt",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera.cpp",
+		"/home/raju/mybot_ws/src/camera_example/models/camera1/model.config",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/src/simple_world_plugin.cpp",
+		"/home/raju/mybot_ws/src/cricball/src/simple_world_plugin.cpp",
+		"/home/raju/mybot_ws/src/camera_example/package.xml",
+		"/home/raju/mybot_ws/src/cricball/package.xml",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/models/camera1/model.sdf",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/src/gazebo_ros_camera.cpp",
+		"/home/raju/mybot_ws/src/cricball/models/cricketball/model.sdf",
+		"/home/raju/mybot_ws/src/cricball/launch/cricball1.launch",
+		"/home/raju/mybot_ws/src/cricball/worlds/empty_world.world",
+		"/home/raju/Desktop/cp/a.cpp",
+		"/home/raju/Desktop/cp/b.cpp",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/models/camera1/model.config",
+		"/home/raju/mybot_ws/src/cricball/worlds/a.cpp",
+		"/home/raju/dummy_1/gazebo_cricbot/CMakeLists.txt",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/package.xml",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/launch/example_plugins_gazebo1.launch",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/urdf/assembly.xacro",
+		"/home/raju/mybot_ws/src/cricball/launch/ball_spawn.launch",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_wheel_slip.cpp",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/urdf/assembly.gazebo",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/urdf/assembly.trans",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/models/cricketball1/model.sdf",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/models/cricketball/model.sdf",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/urdf/model.sdf",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/urdf/model.config",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/urdf/materials.xacro",
+		"/home/raju/mybot_ws/src/cricball/launch/gazebo.launch",
+		"/home/raju/mybot_ws/src/assembly_description/launch/display.launch",
+		"/home/raju/mybot_ws/src/example_plugins_gazebo/launch/example_plugin_gazebo1.launch",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_force.cpp",
+		"/home/raju/mybot_ws/src/cricball/models/cricketball1/model.sdf",
+		"/home/raju/mybot_ws/src/gazebo_tutorials/package.xml",
+		"/home/raju/mybot_ws/src/gazebo_tutorials/src/simple_hello_world_plugin.cpp",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/camera/camera.cpp",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_range.cpp",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/hokuyo_node.cpp",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_pose_trajectory.cpp",
+		"/home/raju/myfirst_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_harness.cpp",
+		"/home/raju/mybot_ws/src/assembly_description/worlds/empty_world.world",
+		"/home/raju/mybot_ws/src/assembly_description/package.xml",
+		"/home/raju/mybot_ws/src/assembly_description/launch/ball_spawn.launch",
+		"/home/raju/mybot_ws/src/assembly_description/urdf/assembly.xacro",
+		"/home/raju/Desktop/cp/template.cpp",
+		"/home/raju/.config/sublime-text-3/Packages/User/power.sublime-snippet",
+		"/home/raju/.config/sublime-text-3/Packages/User/tree_class.sublime-snippet",
+		"/home/raju/.config/sublime-text-3/Packages/User/segment_tree.sublime-snippet",
+		"/home/raju/.config/sublime-text-3/Packages/User/cpp_template.sublime-snippet",
+		"/home/raju/Downloads/bricks.cpp",
+		"/home/raju/Downloads/pilot_rr_oo.py",
+		"/home/raju/Downloads/rocket_bot.py",
+		"/home/raju/Downloads/pilot_rr.py",
+		"/media/raju/New Volume1/cp/530_div2A.cpp",
+		"/media/raju/New Volume1/cp/output.txt",
+		"/media/raju/New Volume1/cp/input.txt",
+		"/home/raju/Downloads/turtle_mover.py",
+		"/media/raju/New Volume/cp/505.cpp",
+		"/media/raju/New Volume1/cp/505.cpp"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "example_plugins_gazebo1.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

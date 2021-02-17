@@ -24,7 +24,10 @@ namespace gazebo
       this->updateConnection = event::Events::ConnectWorldUpdateBegin(
           boost::bind(&HelloWorld::OnUpdate, this));
 
-      this->model->SetLinearVel(ignition::math::Vector3<double>(4.0, 0.0, 4.0));
+      std::cout<<"adding velocity -4.0, 0.0, 0.0"<<'\n';
+      gzdbg<<"adding velocity -4.0, 0.0, 0.0"<<'\n';
+
+      this->model->SetLinearVel(ignition::math::Vector3<double>(-4.0, 0.0, 0.0));
     }
 
     // Called by the world update start event
