@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <robot name="assembly" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find assembly_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find assembly_description)/urdf/assembly.trans" />
-<xacro:include filename="$(find assembly_description)/urdf/assembly.gazebo" />
+<xacro:include filename="$(find cricball)/urdf/materials.xacro" />
+<xacro:include filename="$(find cricball)/urdf/assembly.trans" />
+<xacro:include filename="$(find cricball)/urdf/assembly.gazebo" />
 <link name="dummy">
    </link>
 <link name="base_link">
@@ -15,14 +15,14 @@
   <visual>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <geometry>
-      <mesh filename="package://assembly_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://cricball/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver_default"/>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <geometry>
-      <mesh filename="package://assembly_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://cricball/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
